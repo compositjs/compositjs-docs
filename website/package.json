@@ -2,13 +2,17 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
-    "build": "docusaurus-build",
+    "build": "npm run docs && docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "rename-version": "docusaurus-rename-version",
+    "docs": "node ./load-docs.js"
   },
   "devDependencies": {
     "docusaurus": "^2.0.0-alpha.5"
+  },
+  "dependencies": {
+    "compositjs": "^0.0.2"
   }
 }
