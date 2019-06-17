@@ -25,7 +25,7 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
+          {/* <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
@@ -34,8 +34,8 @@ class Footer extends React.Component {
                 height="58"
               />
             )}
-          </a>
-          <div>
+          </a> */}
+          {/* <div>
             <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
               Getting Started (or other categories)
@@ -46,8 +46,8 @@ class Footer extends React.Component {
             <a href={this.docUrl('doc3.html', this.props.language)}>
               API Reference (or other categories)
             </a>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <h5>Community</h5>
             <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
@@ -65,8 +65,8 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Twitter
             </a>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/">GitHub</a>
@@ -80,10 +80,10 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub">
               Star
             </a>
-          </div>
+          </div> */}
         </section>
 
-        <a
+        {/* <a
           href="https://opensource.facebook.com/"
           target="_blank"
           rel="noreferrer noopener"
@@ -94,7 +94,7 @@ class Footer extends React.Component {
             width="170"
             height="45"
           />
-        </a>
+        </a> */}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

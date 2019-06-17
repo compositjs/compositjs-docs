@@ -5,20 +5,42 @@
     "previous": "Previous",
     "tagline": "A service orchestration tool developed in Node JS",
     "docs": {
+      "application": {
+        "title": "Application",
+        "sidebar_label": "Application"
+      },
       "getting-started": {
         "title": "Getting started",
         "sidebar_label": "Getting started"
       },
+      "middlewares": {
+        "title": "Middlewares",
+        "sidebar_label": "Middlewares"
+      },
+      "output": {
+        "title": "Output",
+        "sidebar_label": "Output"
+      },
       "overview": {
-        "title": "Overview test",
-        "sidebar_label": "Overview test 1"
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "route-definitions": {
+        "title": "Routes definitions",
+        "sidebar_label": "Routes definitions"
+      },
+      "services-route-definition": {
+        "title": "Services in route definition",
+        "sidebar_label": "Services"
       }
     },
     "links": {
       "Docs": "Docs"
     },
     "categories": {
-      "Overview": "Overview"
+      "Overview": "Overview",
+      "Keys": "Keys",
+      "Routes": "Routes"
     }
   },
   "pages-strings": {

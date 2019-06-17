@@ -13,6 +13,6 @@
     "docusaurus": "^2.0.0-alpha.5"
   },
   "dependencies": {
-    "compositjs": "^0.0.3"
+    "compositjs": "^0.0.6"
   }
 }
